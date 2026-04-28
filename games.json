@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1",
+  "games": [
+    {
+      "id": "tacothrower",
+      "displayName": "Taco Thrower",
+      "shortDescription": "A movement-first tactical FPS. Throw tacos. Win games.",
+      "longDescription": "Taco Thrower is a fast-paced multiplayer tactical shooter where movement is your greatest weapon. Master the art of taco-throwing to outsmart your opponents across dynamic maps. With deep mechanics and a surprisingly competitive meta, this is one taco fight you won't forget.",
+      "releaseType": "Early Access",
+      "developer": "axelotl12",
+      "tags": ["FPS", "Tactical", "Movement", "Multiplayer"],
+      "heroImageUrl": "https://i.imgur.com/REPLACE_WITH_HERO.png",
+      "trailerYouTubeId": "REPLACE_WITH_YOUTUBE_ID",
+      "screenshots": [
+        "https://i.imgur.com/REPLACE_SHOT1.png",
+        "https://i.imgur.com/REPLACE_SHOT2.png",
+        "https://i.imgur.com/REPLACE_SHOT3.png"
+      ],
+      "installPath": "TacoThrower",
+      "executableBaseName": "TacoThrower",
+      "gitHubOwner": "axelotl12",
+      "gitHubRepo": "taco-thrower-releases"
+    },
+    {
+      "id": "lane2",
+      "displayName": "LANE 2",
+      "shortDescription": "Next chapter. New mechanics.",
+      "longDescription": "The sequel to the original LANE experience. Everything you loved — refined, expanded, and pushed to the limit. Coming soon.",
+      "releaseType": "Coming Soon",
+      "developer": "axelotl12",
+      "tags": ["Action", "Multiplayer"],
+      "heroImageUrl": "",
+      "trailerYouTubeId": "",
+      "screenshots": [],
+      "installPath": "LANE2",
+      "executableBaseName": "LANE2",
+      "gitHubOwner": "axelotl12",
+      "gitHubRepo": "lane2-game-releases"
+    }
+  ]
+}
