@@ -1,41 +1,98 @@
 {
-  "schemaVersion": "1",
+  "schemaVersion": "2",
+  "featuredGames": [
+    "taco-thrower",
+    "another-game-id"
+  ],
   "games": [
     {
-      "id": "tacothrower",
+      "id": "taco-thrower",
       "displayName": "Taco Thrower",
       "shortDescription": "A movement-first tactical FPS. Throw tacos. Win games.",
-      "longDescription": "Taco Thrower is a fast-paced multiplayer tactical shooter where movement is your greatest weapon. Master the art of taco-throwing to outsmart your opponents across dynamic maps. With deep mechanics and a surprisingly competitive meta, this is one taco fight you won't forget.",
+      "longDescription": "Taco Thrower is a movement-first tactical FPS where your primary weapon is a perfectly aimed taco. Master wall-runs, slides, and aerial maneuvers to outposition your enemies — then finish them off with a well-seasoned throw.\n\nBuilt for players who love fast-paced skill expression. Every taco has physics. Every throw matters. Chain kills with trick shots and climb the global leaderboard.",
       "releaseType": "Early Access",
       "developer": "axelotl12",
-      "tags": ["FPS", "Tactical", "Movement", "Multiplayer"],
-      "heroImageUrl": "https://i.imgur.com/REPLACE_WITH_HERO.png",
-      "trailerYouTubeId": "zRtGL0-5rg4",
+      "price": "FREE TO PLAY",
+      "genre": "FPS / Action",
+      "mode": "Multiplayer",
+      "platform": "Mac / Windows",
+      "tags": ["FPS", "Tactical", "Movement", "Multiplayer", "Free to Play"],
+      "features": [
+        "Physics-based taco throwing with wind & arc mechanics",
+        "High-speed movement: wall-run, slide, double-jump",
+        "Competitive 5v5 ranked matches",
+        "3 handcrafted maps — more coming in Early Access",
+        "Global leaderboards & replay system"
+      ],
+      "earlyAccessReason": "We want to build Taco Thrower with the community. Core mechanics are solid and fun, but we have big plans for more maps, game modes, and competitive features. Your feedback shapes what gets built next.",
+      "heroImageUrl": "https://i.imgur.com/your-hero-image.jpg",
+      "trailerYouTubeId": "YOUR_VIDEO_ID",
       "screenshots": [
-        "https://i.imgur.com/REPLACE_SHOT1.png",
-        "https://i.imgur.com/REPLACE_SHOT2.png",
-        "https://i.imgur.com/REPLACE_SHOT3.png"
+        "https://i.imgur.com/screenshot1.jpg",
+        "https://i.imgur.com/screenshot2.jpg"
       ],
       "installPath": "TacoThrower",
       "executableBaseName": "TacoThrower",
       "gitHubOwner": "axelotl12",
-      "gitHubRepo": "taco-thrower-releases"
+      "gitHubRepo": "taco-thrower",
+      "systemRequirements": {
+        "minimum": {
+          "os": "macOS 12+ / Windows 10",
+          "cpu": "Intel i5 / Apple M1",
+          "ram": "8 GB",
+          "gpu": "GTX 1060 / RX 580",
+          "storage": "4 GB"
+        },
+        "recommended": {
+          "os": "macOS 13+ / Windows 11",
+          "cpu": "Intel i7 / Apple M2",
+          "ram": "16 GB",
+          "gpu": "RTX 2070 / RX 6700 XT",
+          "storage": "4 GB SSD"
+        }
+      }
     },
     {
-      "id": "lane2",
-      "displayName": "LANE 2",
-      "shortDescription": "Next chapter. New mechanics.",
-      "longDescription": "The sequel to the original LANE experience. Everything you loved — refined, expanded, and pushed to the limit. Coming soon.",
+      "id": "another-game-id",
+      "displayName": "Another Game",
+      "shortDescription": "A description of another game.",
+      "longDescription": "Full description here...",
       "releaseType": "Coming Soon",
-      "developer": "axelotl12",
-      "tags": ["Action", "Multiplayer"],
-      "heroImageUrl": "",
+      "developer": "your-username",
+      "price": "$14.99",
+      "genre": "RPG",
+      "mode": "Single-player",
+      "platform": "Mac / Windows",
+      "tags": ["RPG", "Adventure", "Story-rich"],
+      "features": [
+        "Massive open world to explore",
+        "Deep narrative with choices that matter",
+        "100+ hours of content"
+      ],
+      "earlyAccessReason": "",
+      "heroImageUrl": "https://i.imgur.com/your-hero-2.jpg",
       "trailerYouTubeId": "",
       "screenshots": [],
-      "installPath": "LANE2",
-      "executableBaseName": "LANE2",
-      "gitHubOwner": "axelotl12",
-      "gitHubRepo": "lane2-game-releases"
+      "installPath": "AnotherGame",
+      "executableBaseName": "AnotherGame",
+      "gitHubOwner": "your-username",
+      "gitHubRepo": "another-game",
+      "systemRequirements": {
+        "minimum": {
+          "os": "Windows 10 / macOS 12+",
+          "cpu": "Intel i5-8400",
+          "ram": "8 GB",
+          "gpu": "GTX 970",
+          "storage": "20 GB"
+        },
+        "recommended": {
+          "os": "Windows 11 / macOS 13+",
+          "cpu": "Intel i7-10700K",
+          "ram": "16 GB",
+          "gpu": "RTX 3060",
+          "storage": "20 GB SSD"
+        }
+      }
     }
   ]
 }
