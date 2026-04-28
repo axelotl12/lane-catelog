@@ -27,29 +27,14 @@
       "earlyAccessReason": "We want to build Taco Thrower with the community. Core mechanics are solid and fun, but we have big plans for more maps, game modes, and competitive features. Your feedback shapes what gets built next.",
       "heroImageUrl": "https://i.imgur.com/your-hero-image.jpg",
       "trailerYouTubeId": "YOUR_VIDEO_ID",
-      "screenshots": [
-        "https://i.imgur.com/screenshot1.jpg",
-        "https://i.imgur.com/screenshot2.jpg"
-      ],
+      "screenshots": ["https://i.imgur.com/screenshot1.jpg", "https://i.imgur.com/screenshot2.jpg"],
       "installPath": "TacoThrower",
       "executableBaseName": "TacoThrower",
       "gitHubOwner": "axelotl12",
       "gitHubRepo": "taco-thrower",
       "systemRequirements": {
-        "minimum": {
-          "os": "macOS 12+ / Windows 10",
-          "cpu": "Intel i5 / Apple M1",
-          "ram": "8 GB",
-          "gpu": "GTX 1060 / RX 580",
-          "storage": "4 GB"
-        },
-        "recommended": {
-          "os": "macOS 13+ / Windows 11",
-          "cpu": "Intel i7 / Apple M2",
-          "ram": "16 GB",
-          "gpu": "RTX 2070 / RX 6700 XT",
-          "storage": "4 GB SSD"
-        }
+        "minimum": { "os": "macOS 12+ / Windows 10", "cpu": "Intel i5 / Apple M1", "ram": "8 GB", "gpu": "GTX 1060 / RX 580", "storage": "4 GB" },
+        "recommended": { "os": "macOS 13+ / Windows 11", "cpu": "Intel i7 / Apple M2", "ram": "16 GB", "gpu": "RTX 2070 / RX 6700 XT", "storage": "4 GB SSD" }
       }
     },
     {
@@ -64,11 +49,7 @@
       "mode": "Single-player",
       "platform": "Mac / Windows",
       "tags": ["RPG", "Adventure", "Story-rich"],
-      "features": [
-        "Massive open world to explore",
-        "Deep narrative with choices that matter",
-        "100+ hours of content"
-      ],
+      "features": ["Massive open world to explore", "Deep narrative with choices that matter", "100+ hours of content"],
       "earlyAccessReason": "",
       "heroImageUrl": "https://i.imgur.com/your-hero-2.jpg",
       "trailerYouTubeId": "",
@@ -78,20 +59,168 @@
       "gitHubOwner": "your-username",
       "gitHubRepo": "another-game",
       "systemRequirements": {
-        "minimum": {
-          "os": "Windows 10 / macOS 12+",
-          "cpu": "Intel i5-8400",
-          "ram": "8 GB",
-          "gpu": "GTX 970",
-          "storage": "20 GB"
-        },
-        "recommended": {
-          "os": "Windows 11 / macOS 13+",
-          "cpu": "Intel i7-10700K",
-          "ram": "16 GB",
-          "gpu": "RTX 3060",
-          "storage": "20 GB SSD"
-        }
+        "minimum": { "os": "Windows 10 / macOS 12+", "cpu": "Intel i5-8400", "ram": "8 GB", "gpu": "GTX 970", "storage": "20 GB" },
+        "recommended": { "os": "Windows 11 / macOS 13+", "cpu": "Intel i7-10700K", "ram": "16 GB", "gpu": "RTX 3060", "storage": "20 GB SSD" }
+      }
+    },
+    {
+      "id": "call-of-duty-infinite-warfare",
+      "displayName": "Call of Duty: Infinite Warfare",
+      "shortDescription": "A new chapter in the Call of Duty franchise, taking warfare beyond Earth.",
+      "longDescription": "Call of Duty: Infinite Warfare delivers three unique game modes: Campaign, Multiplayer, and Zombies. The campaign is a gripping war story about survival and protecting the last safe places in our solar system. Multiplayer introduces a new class-based system with deep customization. Zombies takes you on a wild ride through a twisted theme park.",
+      "releaseType": "Released",
+      "developer": "Infinity Ward",
+      "price": "$59.99",
+      "genre": "FPS / Action",
+      "mode": "Multiplayer / Single-player",
+      "platform": "Windows",
+      "tags": ["FPS", "Action", "Multiplayer", "Sci-Fi", "Shooter"],
+      "features": [
+        "Gripping single-player campaign set in space",
+        "Fast-paced competitive multiplayer",
+        "Zombies co-op mode in a twisted theme park",
+        "New class-based combat system",
+        "Stunning visuals across Earth and beyond"
+      ],
+      "earlyAccessReason": "",
+      "heroImageUrl": "",
+      "trailerYouTubeId": "",
+      "screenshots": [],
+      "installPath": "CallOfDutyInfiniteWarfare",
+      "executableBaseName": "iw6sp64_ship",
+      "gitHubOwner": "",
+      "gitHubRepo": "",
+      "systemRequirements": {
+        "minimum": { "os": "Windows 7 64-bit", "cpu": "Intel Core i3-3225", "ram": "8 GB", "gpu": "NVIDIA GeForce GTX 660", "storage": "70 GB" },
+        "recommended": { "os": "Windows 10 64-bit", "cpu": "Intel Core i7-3770", "ram": "16 GB", "gpu": "NVIDIA GeForce GTX 1060", "storage": "70 GB SSD" }
+      }
+    },
+    {
+      "id": "divinity-original-sin-2",
+      "displayName": "Divinity: Original Sin 2",
+      "shortDescription": "The definitive RPG experience. Choose your race, class, and fight for survival.",
+      "longDescription": "Divinity: Original Sin 2 is the sequel to the critically acclaimed Divinity: Original Sin. Become the God the world so desperately needs. Explore the vast and layered world of Rivellon alone or in a party of up to 4 players in drop-in/drop-out cooperative play.",
+      "releaseType": "Released",
+      "developer": "Larian Studios",
+      "price": "$35.99",
+      "genre": "RPG / Strategy",
+      "mode": "Single-player / Co-op",
+      "platform": "Windows / Mac",
+      "tags": ["RPG", "Co-op", "Turn-Based", "Fantasy", "Story-rich"],
+      "features": [
+        "Deeply systemic RPG with full co-op support",
+        "Pick from 6 unique origin characters or create your own",
+        "Elemental combo system — set the world on fire",
+        "Award-winning story with over 1 million words of dialogue",
+        "Game Master mode for tabletop-style sessions"
+      ],
+      "earlyAccessReason": "",
+      "heroImageUrl": "",
+      "trailerYouTubeId": "",
+      "screenshots": [],
+      "installPath": "DivinityOriginalSin2",
+      "executableBaseName": "EoCApp",
+      "gitHubOwner": "",
+      "gitHubRepo": "",
+      "systemRequirements": {
+        "minimum": { "os": "Windows 7 SP1 64-bit", "cpu": "Intel Core i5 2400S", "ram": "4 GB", "gpu": "NVIDIA GTX 550", "storage": "35 GB" },
+        "recommended": { "os": "Windows 10 64-bit", "cpu": "Intel Core i7 3770", "ram": "8 GB", "gpu": "NVIDIA GTX 770", "storage": "35 GB SSD" }
+      }
+    },
+    {
+      "id": "witcher-3-wild-hunt",
+      "displayName": "The Witcher 3: Wild Hunt",
+      "shortDescription": "An epic open-world RPG. Hunt monsters. Make choices. Shape the world.",
+      "longDescription": "You are Geralt of Rivia, a professional monster hunter known as a Witcher. You've been hired to find a child of prophecy, a living weapon that can alter the shape of the world. In the meantime, the Northern Realms are consumed in war and the Wild Hunt rides across the sky.",
+      "releaseType": "Released",
+      "developer": "CD PROJEKT RED",
+      "price": "$39.99",
+      "genre": "RPG / Action",
+      "mode": "Single-player",
+      "platform": "Windows / Mac",
+      "tags": ["RPG", "Open World", "Fantasy", "Story-rich", "Action"],
+      "features": [
+        "Enormous open world with dynamic day/night cycle",
+        "Over 100 hours of gameplay including expansions",
+        "36 meaningful endings shaped by your choices",
+        "Rich monster hunting contracts and side quests",
+        "Complete Edition includes all DLC and expansions"
+      ],
+      "earlyAccessReason": "",
+      "heroImageUrl": "",
+      "trailerYouTubeId": "",
+      "screenshots": [],
+      "installPath": "Witcher3",
+      "executableBaseName": "witcher3",
+      "gitHubOwner": "",
+      "gitHubRepo": "",
+      "systemRequirements": {
+        "minimum": { "os": "Windows 7 64-bit", "cpu": "Intel Core i5-2500K", "ram": "6 GB", "gpu": "NVIDIA GeForce GTX 660", "storage": "50 GB" },
+        "recommended": { "os": "Windows 10 64-bit", "cpu": "Intel Core i7-3770", "ram": "8 GB", "gpu": "NVIDIA GeForce GTX 770", "storage": "50 GB SSD" }
+      }
+    },
+    {
+      "id": "watch-dogs-2",
+      "displayName": "Watch Dogs 2",
+      "shortDescription": "Hack the city of San Francisco. Expose the truth. Start a revolution.",
+      "longDescription": "Play as Marcus Holloway, a brilliant young hacker living in the birthplace of the tech revolution, the San Francisco Bay Area. Team up with Dedsec, a notorious group of hackers, to execute the biggest hack in history; take down ctOS 2.0, an invasive operating system being used by criminal masterminds to monitor and manipulate citizens on a massive scale.",
+      "releaseType": "Released",
+      "developer": "Ubisoft Montreal",
+      "price": "$14.99",
+      "genre": "Action / Adventure",
+      "mode": "Single-player / Multiplayer",
+      "platform": "Windows",
+      "tags": ["Action", "Open World", "Hacking", "Stealth", "Multiplayer"],
+      "features": [
+        "Massive open world recreation of San Francisco Bay Area",
+        "Hack everything — cars, drones, security systems",
+        "Seamless online multiplayer missions",
+        "Parkour and fluid combat system",
+        "Creative hacking tools: RC car, drone, jumper bot"
+      ],
+      "earlyAccessReason": "",
+      "heroImageUrl": "",
+      "trailerYouTubeId": "",
+      "screenshots": [],
+      "installPath": "WatchDogs2",
+      "executableBaseName": "WatchDogs2",
+      "gitHubOwner": "",
+      "gitHubRepo": "",
+      "systemRequirements": {
+        "minimum": { "os": "Windows 7 SP1 64-bit", "cpu": "Intel Core i5-2400S", "ram": "6 GB", "gpu": "NVIDIA GeForce GTX 660", "storage": "50 GB" },
+        "recommended": { "os": "Windows 10 64-bit", "cpu": "Intel Core i7-3770", "ram": "8 GB", "gpu": "NVIDIA GeForce GTX 970", "storage": "50 GB SSD" }
+      }
+    },
+    {
+      "id": "battlefield-1",
+      "displayName": "Battlefield 1",
+      "shortDescription": "Experience the dawn of all-out war in the First World War.",
+      "longDescription": "Battlefield 1 takes you back to the Great War, WW1, where new technology and worldwide conflict changed the face of warfare forever. Discover a new world at war through an adventure-filled campaign, or join in epic multiplayer battles with up to 64 players.",
+      "releaseType": "Released",
+      "developer": "DICE",
+      "price": "$19.99",
+      "genre": "FPS / Action",
+      "mode": "Multiplayer / Single-player",
+      "platform": "Windows",
+      "tags": ["FPS", "Multiplayer", "Historical", "Action", "War"],
+      "features": [
+        "Set in WWI — a war like no other",
+        "Multiplayer battles with up to 64 players",
+        "Unique Operations mode spanning multiple maps",
+        "Six diverse War Stories in the campaign",
+        "Vast arsenal of WWI weapons and vehicles"
+      ],
+      "earlyAccessReason": "",
+      "heroImageUrl": "",
+      "trailerYouTubeId": "",
+      "screenshots": [],
+      "installPath": "Battlefield1",
+      "executableBaseName": "bf1",
+      "gitHubOwner": "",
+      "gitHubRepo": "",
+      "systemRequirements": {
+        "minimum": { "os": "Windows 7 64-bit", "cpu": "Intel Core i5-6600K", "ram": "8 GB", "gpu": "NVIDIA GeForce GTX 660", "storage": "50 GB" },
+        "recommended": { "os": "Windows 10 64-bit", "cpu": "Intel Core i7-6700", "ram": "16 GB", "gpu": "NVIDIA GeForce GTX 1060", "storage": "50 GB SSD" }
       }
     }
   ]
