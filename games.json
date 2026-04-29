@@ -20,7 +20,7 @@
       "features": [
         "30 well balanced weapon",
         "10+ official maps",
-        "A stock market to trade and sell in game skins",
+        "A stock market to trade and sell in game accesories",
         "200+ in game earnable accesories.",
         "High speed movement",
         "Global leaderboards & replay system"
@@ -32,7 +32,7 @@
       "installPath": "TacoThrower",
       "executableBaseName": "TacoThrower",
       "gitHubOwner": "axelotl12",
-      "gitHubRepo": "taco-thrower",
+      "gitHubRepo": "taco-thrower-releases",
       "systemRequirements": {
         "minimum": { "os": "macOS 12+ / Windows 10", "cpu": "Intel i5 / Apple M1", "ram": "8 GB", "gpu": "GTX 1060 / RX 580", "storage": "4 GB" },
         "recommended": { "os": "macOS 13+ / Windows 11", "cpu": "Intel i7 / Apple M2", "ram": "16 GB", "gpu": "RTX 2070 / RX 6700 XT", "storage": "4 GB SSD" }
